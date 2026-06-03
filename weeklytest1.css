@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif
+}
+
+body {
+    background: #f5f5f5
+}
+.logo {
+    color: #d98a19;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+.hero-content h3 {
+    color: #d98a19;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto
+}
+
+header {
+    background: #111;
+    color: #fff;
+    padding: 15px 0
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px
+}
+
+.hero {
+    height: 350px;
+    background: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400') center/cover
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    display: flex;
+    align-items: center
+}
+
+.hero-content {
+    color: white;
+    padding-left: 80px
+}
+
+.hero-content h1 {
+    font-size: 60px
+}
+
+.hero-content button,
+.card button,
+.booking button {
+    background: #d98a19;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background: white;
+    padding: 30px;
+    margin-top: 20px
+}
+
+.about img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover
+}
+
+.about-text {
+    text-align: center
+}
+
+.title {
+    text-align: center;
+    margin: 25px 0
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover
+}
+
+.booking {
+    background: white;
+    margin-top: 20px;
+    padding: 20px
+}
+
+.booking form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px
+}
+
+.booking textarea {
+    grid-column: 2/5
+}
+
+.booking button {
+    grid-column: 1/-1;
+    justify-self: center
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social a {
+    color: #d98a19;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
